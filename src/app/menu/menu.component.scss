@@ -1,0 +1,56 @@
+.logo {
+  margin: 16px 36px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  line-height: 50px;
+  transition: 1s;
+}
+
+nav.black {
+  z-index: 10;
+  background: black;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 16px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul {
+  margin-bottom: -1;
+}
+
+div {
+  text-align: center;
+}
+
+.menu {
+  margin-left: -10%;
+}
+
+.boutons:hover {
+  color: HighlightText;
+}
+
+/* classe pour le fond d'écran de l'accueil principal  */
+.masthead {
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url(../../assets/image/residence_sto.jpg);
+  background-size: cover;
+}
